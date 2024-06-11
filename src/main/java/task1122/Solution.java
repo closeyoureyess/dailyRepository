@@ -90,11 +90,21 @@ public class Solution {
                     }
                 }
             } else {
-
+                for (int k = 0; k < arrayList2.size(); k++) { // 3
+                    if (arrayList1.get(i).equals(hashMap1.get(k))) { // 1 - 3
+                        hashMap2.put(k + 1, arrayList1.get(i));
+                        needDelete.add(i);
+                        for (int l = i + 1; l < arrayList1.size() - delElements.size(); l++) {
+                            if(arrayList1.get(l).equals(arrayList1.get(i))){
+                                for(int m = 0; m < arrayList2.size(); m++){
+                                    if(arrayList1.get(l).equals(hashMap1))
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
-
-
         return abc;
     }
 }
