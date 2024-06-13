@@ -98,7 +98,7 @@ public class Solution {
         //Преобразование списка в примитивный массив типа int
         int[] result = linkedList.stream().mapToInt(Integer::intValue).toArray();
 
-        System.out.println(linkedList);
+        System.out.println(Arrays.toString(result));
 
         return result;
     }
