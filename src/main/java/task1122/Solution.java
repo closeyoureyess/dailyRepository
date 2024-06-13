@@ -1,19 +1,19 @@
-/*package task1122;
+package task1122;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Solution {
 
+    private int recurrence;
+
+    private Integer pastValue;
+
+    private int indx;
+
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
 
-        int[] abc = {1, 2, 3};
-
         ArrayList<Integer> arrayList1 = Arrays.stream(arr1)
-                .boxed()
-                .collect(Collectors.toCollection(() -> new ArrayList<>()));
-
-        ArrayList<Integer> delElements = Arrays.stream(arr1)
                 .boxed()
                 .collect(Collectors.toCollection(() -> new ArrayList<>()));
 
@@ -21,61 +21,87 @@ public class Solution {
                 .boxed()
                 .collect(Collectors.toCollection(() -> new ArrayList<>()));
 
+        ArrayList<Integer> delElements = Arrays.stream(arr1)
+                .boxed()
+                .collect(Collectors.toCollection(() -> new ArrayList<>()));
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        //Удаление элементов второй статичной коллекции из копии первой коллекции, чтобы в коллекции остались только числа, которых нет во второй коллекции
         delElements.removeAll(arrayList2);
         Collections.sort(delElements);
-        System.out.println(delElements);
 
+        //Удаление чисел, которых нет во втором ArrayList, из оригинального первого списка
         arrayList1.removeAll(delElements);
-        arrayList1.addAll(delElements);
 
-        System.out.println(arrayList1);
+        //Создание LinkedList, равного длине первого массива(минус уникальные числа), заполненного null-ами
+        linkedList.addAll(Collections.nCopies(arrayList1.size(), null));
 
-        HashMap<Integer, Integer> hashMap1 = new HashMap<>();
-
-
-        for (int i = 0; i < arr2.length; i++) {
-            hashMap1.put(i, arr2[i]);
+        //Создание и заполнение HashMap значениями из второго ArrayList, значение массива - key, индекс элемента массива - value
+        LinkedHashMap<Integer, Integer> hashMap1 = new LinkedHashMap<>();
+        for (int i = 0; i < arrayList2.size(); i++) {
+            hashMap1.put(arrayList2.get(i), i);
         }
-
-        HashMap<Integer, Integer> hashMap2 = new HashMap<>();
-
-        ArrayList<Integer> needDelete = new ArrayList<>();
-
-        HashMap<Integer> arrayList1 = ArrayList.stream(arr1)
-                .boxed()
-                .collect(Collectors.toMap());
-
-
-       *//* ArrayList<Integer> arrayList2 = Arrays.stream(arr2)
-                .boxed()
-                .collect(Collectors.toCollection(() -> new ArrayList<>()));*//*
-
-        //Добавление одной коллекции в другую, теперь 2,3,1,3,2,4,6,7,9,2,19 +  2,1,4,3,9,6
-        //arrayList2.addAll(arrayList1);                // 2, 3, 1, 3, 2, 4, 6, 9, 2, 7
-        // 2, 2, 3, 1, 3, 4, 6, 9, 2, 7
-
-        // С помощью add, перебрать элементы
-        // Hashmap - сравнить элементы, убедиться, что у
 
         for (int i = 0; i < arrayList1.size(); i++) {
-            int valArr1 = arrayList1.get(i);
-            for (int j = 0; j < arrayList1.size(); j++) {
-                if (valArr1 == arrayList1.get(j)) {
-                    break;
-                } else if () {
 
+            Integer cKey = null;
+            Integer key = null;
+            int counterMap = 0;
+
+            for (Map.Entry<Integer, Integer> entry : hashMap1.entrySet()) {
+                cKey = entry.getKey();
+                if (counterMap == i) {
+                    key = cKey;
+                    break;
+                } else {
+                    counterMap++;
                 }
             }
-        }
 
-        int value1 = arrayList2.get(i);
-        int k = i;
-        System.out.println("i " + arrayList2.get(i));
-        for (int j = i + 1; j < arrayList2.size(); j++) {
-            if (value1 == arrayList2.get(j)) {
-                Collections.swap(arrayList2, k + 1, j);
+            recurrence = Collections.frequency(arrayList1, key);
+
+            if (i == 0) {
+                if (recurrence > 1) {
+                    for (int j = 0; j < recurrence; j++) {
+                        linkedList.set(hashMap1.get(key) + j, key);
+                    }
+                } else if (recurrence == 1) {
+                    linkedList.set(hashMap1.get(key), key);
+                }
+                // Сохраняем прошлое значение key
+                pastValue = key;
+            }
+
+            indx = linkedList.lastIndexOf(pastValue);
+
+            if (i > 0) {
+                if (recurrence > 1) {
+                    for (int k = 1; k <= recurrence; k++) {
+                        linkedList.set(indx + k, key);
+                    }
+                } else if (recurrence == 1) {
+                    if (indx + 1 == arrayList1.size()) {
+                        linkedList.set(indx, key);
+                    } else {
+                        linkedList.set(indx + 1, key);
+                    }
+                }
+                //Сохраняем прошлое значение key
+                pastValue = key;
             }
         }
-        return abc;
+
+        //Склейка не входивших во второй массив сортированных элементов с концом основного списка
+        linkedList.addAll(delElements);
+
+        //Преобразование списка в примитивный массив типа int
+        int[] result = linkedList.stream().mapToInt(Integer::intValue).toArray();
+
+        System.out.println(linkedList);
+
+        return result;
     }
-}*/
+}
+
+
