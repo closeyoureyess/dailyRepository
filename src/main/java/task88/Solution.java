@@ -25,7 +25,7 @@ public class Solution {
             }
         }
         Collections.sort(arrayList1);
-        System.out.println(arrayList1);
+        nums1 = arrayList1.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
