@@ -19,14 +19,3 @@ public class Solution {
         return k;
     }
 }
-
-/*int number = nums[0];
-        int numberIndex = 0;
-        for (int k = 1; k < nums.length; k++){
-            if(nums[k] != number){
-                number = nums[k];
-                numberIndex++;
-                System.out.println(nums[k]);
-            }
-        }
-        System.out.println(numberIndex);*/
