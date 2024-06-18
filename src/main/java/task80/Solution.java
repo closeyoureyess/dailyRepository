@@ -12,23 +12,26 @@ public class Solution {
         int k = 0;
         LinkedList<Integer> queueList = new LinkedList<>();
 
+        //Сложить в LinkedList элементы, у которых нет дублей
         for (int p = 0; p < nums.length; p++) {
-            //Счетчик того, сколько дублей элемента в массиве, напр. 1 - 3
-            if (p != 0 && p != nums.length - 1 && nums[p] != nums[p + 1] && nums[p - 1] != nums[p]) {
+            if (p != 0 && p != nums.length - 1 && nums[p] != nums[p + 1] && nums[p - 1] != nums[p]) { //Если не первый элемент и справа, и слева нет дублей
                 queueList.push(nums[p]);
             }
-            if (p == nums.length - 1 && nums[p] != nums[p - 1]) {
+            if (nums.length == 1){ // Если длина массива 1(1 элемент)
+                queueList.push(nums[p]);
+            } else if(p == nums.length - 1 && nums[p] != nums[p - 1]) { //Если больше 1, для последнего элемента
                 queueList.push(nums[p]);
             }
         }
 
         for (int m = (nums.length - 1) - 1; m >= 0; m--) {
             if (nums[nums.length - 1] == nums[m]) {
-                enumerator++;
+                ++enumerator;
             } else {
                 break;
             }
         }
+        System.out.println("enum " + enumerator);
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -90,12 +93,12 @@ public class Solution {
             }
         }
 
-        if (result > 1) {
+        if (enumerator >= 1) {
             k = result + 2;
         } else {
             k = result + 1;
         }
-        System.out.println(Arrays.toString(nums));
+        System.out.println(k);
         return k;
     }
 }
