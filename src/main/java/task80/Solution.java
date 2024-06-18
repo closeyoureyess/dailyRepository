@@ -4,100 +4,78 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Solution {
-    public int removeDuplicates(int[] nums) { // 0,0,1,1,1,1,2,3,3
-        int j = 0;
-        int counter = 0;
-        int result = 0;
-        int enumerator = 0;
-        int k = 0;
-        LinkedList<Integer> queueList = new LinkedList<>();
+    public int removeDuplicates(int[] nums) { // 1,1,2,2,2,2,3,3 // 1,1,1,2,2,3 // 0,0,1,1,1,1,2,3,3
 
-        //Сложить в LinkedList элементы, у которых нет дублей
+        //Найти в массиве элементы, у которых нет дублей
+        LinkedList<Integer> queueList = new LinkedList<>();
         for (int p = 0; p < nums.length; p++) {
+
             if (p != 0 && p != nums.length - 1 && nums[p] != nums[p + 1] && nums[p - 1] != nums[p]) { //Если не первый элемент и справа, и слева нет дублей
-                queueList.push(nums[p]);
+                queueList.add(nums[p]);
             }
-            if (nums.length == 1){ // Если длина массива 1(1 элемент)
-                queueList.push(nums[p]);
-            } else if(p == nums.length - 1 && nums[p] != nums[p - 1]) { //Если больше 1, для последнего элемента
-                queueList.push(nums[p]);
+            if (nums.length == 1) { // Если длина массива 1(1 элемент)
+                queueList.add(nums[p]);
+
+            } else if (p == nums.length - 1 && nums[p] != nums[p - 1]) { //Если больше 1, для последнего элемента
+                queueList.add(nums[p]);
             }
+
         }
 
-        for (int m = (nums.length - 1) - 1; m >= 0; m--) {
-            if (nums[nums.length - 1] == nums[m]) {
+        //Подсчет кол-ва элементов в массиве в конце
+        int enumerator = 0;
+        for (int v = (nums.length - 1) - 1; v >= 0; v--) {
+            if (nums[nums.length - 1] == nums[v]) {
                 ++enumerator;
             } else {
                 break;
             }
         }
-        System.out.println("enum " + enumerator);
 
+        //Сортировка
+        int k = 0;
         for (int i = 0; i < nums.length; i++) {
-
-            if (i != nums.length - 1 && nums[i] == nums[i + 1]) {
-                if (i != 0 && nums[i - 1] != nums[i]) {
-                    j = 0;
-                }
-                j++;
-            } else {
-                if (i != nums.length - 1 && j == 2) {
-                    if (!queueList.isEmpty() && queueList.contains(nums[i]) && nums[i] == queueList.get(queueList.indexOf(nums[i]))) {
-                        int local = i;
-                        nums[i] = nums[i + 1];
-                        --j;
-                        nums[--local] = nums[i];
-                        //queueList.poll();
-                        i = 0;
-                    } else {
-                        nums[i] = nums[i + 1];
-                        counter++;
-                        j = 0;
-                    }
-                } else if (i != nums.length - 1 && j > 2) {
-                    int local = i;
-                    if (!queueList.isEmpty() && queueList.contains(nums[i]) && nums[i] == queueList.get(queueList.indexOf(nums[i]))) {
+            int j = 0;
+            for (int m = i + 1; m < nums.length; m++) {
+                if (nums[i] == nums[m]) {
+                    ++j;
+                } else {
+                    if (queueList.contains(nums[i]) && nums[i] == queueList.get(queueList.indexOf(nums[i])) && j > 0) { //Если попался элемент, который должен быть один в массиве
                         while (j > 0) {
-                            --j;
-                            nums[--local] = nums[i];
-                            //queueList.poll();
-                        }
-                        i = 0;
-                    } else {
-                        nums[i] = nums[i + 1];
-                        while (j > 2) {
-                            nums[--local] = nums[i];
+                            nums[i + j] = nums[i + j + 1];
                             j--;
                         }
-                        j = 0;
-                        i = 0;
+                        i = -1;
+                    } else if (j > 1) { //Элемент, который дублируется более, чем 1 раз(напр. 2, 2, 2, хотя допустимо максимум 2, 2)
+                        while (j > 1) {
+                            nums[i + j] = nums[i + j + 1];
+                            j--;
+                        }
+                        i = -1;
                     }
-                } else if (i != nums.length - 1 && j < 2 && counter > 0) {
-                    nums[i] = nums[i + 1];
-                } else if (!queueList.isEmpty()
-                        && queueList.contains(nums[i])
-                        && nums[i] == queueList.get(queueList.indexOf(nums[i]))
-                        && i != nums.length - 1 && i != 0
-                        && j < 2 &&
-                        nums[i] == nums[i - 1] & nums[i] == nums[i + 1]) {
-                    nums[i] = nums[i + 1];
+                    break;
                 }
             }
         }
+        System.out.println(Arrays.toString(nums));
 
-        for (int m = 0; m < nums.length; m++) {
-            if (nums[m] == nums[nums.length - 1]) {
+        //Подсчет кол-ва элементов в массиве
+        int result = 0;
+        for (int f = 0; f < nums.length; f++) {
+            if (nums[f] == nums[nums.length - 1]) {
                 break;
             } else {
                 result++;
             }
         }
 
+        //
         if (enumerator >= 1) {
             k = result + 2;
         } else {
             k = result + 1;
         }
+
         System.out.println(k);
         return k;
     }
