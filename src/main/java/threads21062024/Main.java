@@ -6,17 +6,8 @@ public class Main {
         Thread threadTwo = new Thread(new Student());
         Thread threadThree = new Thread(new Student());
 
-        try {
-            threadOne.start();
-            threadOne.join();
-            //
-            threadTwo.start();
-            threadTwo.join();
-            //
-            threadThree.start();
-            threadThree.join();
-        } catch (InterruptedException e) {
-            System.out.println("Error " + e);
-        }
+        threadOne.start();
+        threadTwo.start();
+        threadThree.start();
     }
 }
