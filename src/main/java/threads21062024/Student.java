@@ -6,7 +6,9 @@ import java.util.List;
 
 public class Student implements Runnable {
 
+    private static int ccc;
     private int id;
+    private static List<Student> roster = new ArrayList<>();
 
     public Student(int id) {
         this.id = id;
@@ -15,22 +17,35 @@ public class Student implements Runnable {
     public Student() {
     }
 
-    private static List<Student> roster = new ArrayList<>();
-
     @Override
     public void run() {
-        for (int k = 0; k < roster.size(); k++){
-            String a = String.valueOf(roster.get(k));
-            String b = a.substring(a.indexOf("=") + 1, a.length() - 1);
-            System.out.println(Integer.parseInt(b) + 1);
-        }
+        modifyStudent();
     }
 
-    public void createStudent(int students){
-        for( int i = 0; i < students; i++){
-            roster.add(new Student(i));
+    public void createStudent(int students) {
+        for (int i = 0; i < students; i++) {
+            setId(i);
+            roster.add(new Student(getId()));
         }
         System.out.println(roster);
+    }
+
+    public void modifyStudent() {
+        synchronized (Student.class) {
+            int i = 0;
+            for (int k = ccc; k < roster.size(); k++) {
+                if (i <= (roster.size() - 1) / 3) {
+                    String a = String.valueOf(roster.get(k));
+                    String b = a.substring(a.indexOf("=") + 1, a.length() - 1);
+                    System.out.println(Integer.parseInt(b) + 1);
+                    ccc = k + 1;
+                    i++;
+                } else {
+                    break;
+                }
+            }
+            System.out.println("End of the thread: " + Thread.currentThread().getName());
+        }
     }
 
     public int getId() {
@@ -46,22 +61,3 @@ public class Student implements Runnable {
         return "Student{" + "id=" + id + '}';
     }
 }
-
-/*if(roster.size() < 32){
-                    setId(i);
-                    roster.add(getId(), new Student(getId()));
-                } else if (!roster.contains(new Student(i))) {
-                    i = getId();
-                    if (!roster.contains(new Student(i))){
-                        setId(i);
-                        roster.add(getId(), new Student(getId()));
-                        System.out.println("Элемента нет" + i);
-                    } else {
-                        System.out.println("Элемент есть " + i);
-                    }
-                    //System.out.println("GI " + getId());
-                } else if (getId() == 33) {
-                    System.out.println("final");
-                    break;
-                }
-                System.out.println("This student have ID: " + roster.get(i) + " Size " + roster.size());*/
