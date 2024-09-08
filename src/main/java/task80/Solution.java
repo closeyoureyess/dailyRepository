@@ -1,4 +1,4 @@
-package task80;
+/*package task80;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -57,7 +57,6 @@ public class Solution {
                 }
             }
         }
-        System.out.println(Arrays.toString(nums));
 
         //Подсчет кол-ва элементов в массиве
         int result = 0;
@@ -76,7 +75,6 @@ public class Solution {
             k = result + 1;
         }
 
-        System.out.println(k);
         return k;
     }
-}
+}*/

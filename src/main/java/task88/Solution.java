@@ -1,3 +1,4 @@
+/*
 package task88;
 
 import java.util.ArrayList;
@@ -22,4 +23,4 @@ public class Solution {
         Arrays.sort(nums1);
         System.out.println(Arrays.toString(nums1));
     }
-}
+}*/

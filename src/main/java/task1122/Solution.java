@@ -1,10 +1,10 @@
+/*
 package task1122;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Solution {
-
     private int recurrence;
 
     private Integer pastValue;
@@ -94,14 +94,11 @@ public class Solution {
 
         //Склейка не входивших во второй массив сортированных элементов с концом основного списка
         linkedList.addAll(delElements);
-
         //Преобразование списка в примитивный массив типа int
         int[] result = linkedList.stream().mapToInt(Integer::intValue).toArray();
-
-        System.out.println(Arrays.toString(result));
-
         return result;
     }
 }
+*/
 
 
