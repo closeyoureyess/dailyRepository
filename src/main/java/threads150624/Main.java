@@ -1,4 +1,3 @@
-/*
 package threads150624;
 
 public class Main {
@@ -25,4 +24,3 @@ public class Main {
 
     }
 }
-*/

@@ -1,4 +1,3 @@
-/*
 package task1122;
 
 import java.util.*;
@@ -99,6 +98,5 @@ public class Solution {
         return result;
     }
 }
-*/
 
 

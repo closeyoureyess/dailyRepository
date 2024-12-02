@@ -1,4 +1,4 @@
-/*package threads21062024;
+package threads21062024;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,4 +72,4 @@ public class Main {
         threadThree.join();
 
     }
-}*/
+}

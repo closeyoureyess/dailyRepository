@@ -1,4 +1,3 @@
-/*
 package threads150624;
 
 public class Car implements Runnable {
@@ -12,4 +11,3 @@ public class Car implements Runnable {
         System.out.println(Thread.currentThread().getName());
     }
 }
-*/

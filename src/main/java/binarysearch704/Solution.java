@@ -8,7 +8,7 @@ public class Solution {
         int middle;
         int i = 0;
 
-        while (i < nums.length - 1) {
+        while (first <= last) {
             middle = (first + last) / 2;
             if (target > nums[middle]) {
                 first = middle + 1;
@@ -17,9 +17,8 @@ public class Solution {
             }
             if (target == nums[middle]) {
                 return middle;
-            } else {
-                i = 0;
             }
+            i = 0;
             i++;
         }
         return -1;

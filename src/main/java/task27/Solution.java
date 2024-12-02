@@ -1,4 +1,3 @@
-/*
 package task27;
 
 import java.util.ArrayList;
@@ -23,4 +22,4 @@ public class Solution {
         System.out.println(Arrays.toString(nums));
         return nums.length - k;
     }
-}*/
+}

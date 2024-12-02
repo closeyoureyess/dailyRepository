@@ -1,4 +1,3 @@
-/*
 package threads21062024;
 
 public class Stream implements Runnable{
@@ -6,4 +5,3 @@ public class Stream implements Runnable{
     public void run() {
     }
 }
-*/

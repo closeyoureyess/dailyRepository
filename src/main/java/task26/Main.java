@@ -1,4 +1,3 @@
-/*
 package task26;
 
 import java.util.Arrays;
@@ -16,4 +15,3 @@ public class Main {
         System.out.println(Arrays.toString(abc));
     }
 }
-*/

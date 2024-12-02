@@ -1,8 +1,8 @@
-/*package array1748;
+package array1748;
 
-public class task1122.Main {
+public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.sumOfUnique(new int[]{10, 4, 10, 4, 9, 5, 10}));
     }
-}*/
+}

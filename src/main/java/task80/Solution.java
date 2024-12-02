@@ -1,4 +1,4 @@
-/*package task80;
+package task80;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -77,4 +77,4 @@ public class Solution {
 
         return k;
     }
-}*/
+}

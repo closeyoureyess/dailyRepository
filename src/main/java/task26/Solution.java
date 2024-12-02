@@ -1,4 +1,4 @@
-/*package task26;
+package task26;
 
 import java.util.Arrays;
 
@@ -21,4 +21,4 @@ public class Solution {
 
         return k;
     }
-}*/
+}

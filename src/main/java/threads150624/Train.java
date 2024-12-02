@@ -1,4 +1,3 @@
-/*
 package threads150624;
 
 public class Train implements Runnable{
@@ -16,4 +15,3 @@ public class Train implements Runnable{
             method();
     }
 }
-*/

@@ -1,4 +1,3 @@
-/*
 package threads21062024;
 
 import java.util.ArrayList;
@@ -22,4 +21,3 @@ public class Student {
         this.id = id;
     }
 }
-*/
