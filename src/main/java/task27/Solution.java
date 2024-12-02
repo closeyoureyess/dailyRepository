@@ -1,9 +1,6 @@
 package task27;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.Collectors;
 
 public class Solution {
     public int removeElement(int[] nums, int val) {

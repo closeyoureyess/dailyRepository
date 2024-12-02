@@ -4,32 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8d8555-7890-4e81-b4b0-b345134814f6" name="Changes" comment="rework">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearch704/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearch704/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array1748/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array1748/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array1748/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array1748/Solution.java" afterDir="false" />
+    <list default="true" id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/containsduplicate217/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/containsduplicate217/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/containsduplicate217/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/containsduplicate217/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task1122/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1122/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task1122/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1122/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task1122/Solution2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task26/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task26/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task26/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task27/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task27/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task80/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task80/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task27/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task27/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task80/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task80/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task88/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task88/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task88/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task88/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/threads21062024/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads21062024/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threads21062024/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads21062024/Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/threads21062024/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads21062024/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +22,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/threads21062024/Student.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2hh5fYreowyTIZk5NVyVoYbiTbz" />
+  <component name="GradleModuleStateConfig" initialized="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pgH4IRKSU5tCL4dEpDaHuP0wfM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,314 +37,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vadim/Downloads/myProject (1)"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="task27" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e8d8555-7890-4e81-b4b0-b345134814f6" name="Changes" comment="" />
-      <created>1718033574278</created>
+      <changelist id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="update" />
+      <created>1733180614549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718033574278</updated>
+      <updated>1733180614549</updated>
     </task>
-    <task id="LOCAL-00001" summary="master - search unique value and sum it">
-      <option name="closed" value="true" />
-      <created>1718033958148</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1718033958148</updated>
-    </task>
-    <task id="LOCAL-00002" summary="master - dev arraylist">
-      <option name="closed" value="true" />
-      <created>1718078040572</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718078040572</updated>
-    </task>
-    <task id="LOCAL-00003" summary="master - dev arraylist#2">
-      <option name="closed" value="true" />
-      <created>1718093748353</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718093748353</updated>
-    </task>
-    <task id="LOCAL-00004" summary="master - dev arraylist#3">
-      <option name="closed" value="true" />
-      <created>1718143162228</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718143162228</updated>
-    </task>
-    <task id="LOCAL-00005" summary="master - old wrong option code">
-      <option name="closed" value="true" />
-      <created>1718310192903</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718310192903</updated>
-    </task>
-    <task id="LOCAL-00006" summary="master - old code incorrect">
-      <option name="closed" value="true" />
-      <created>1718317691609</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718317691609</updated>
-    </task>
-    <task id="LOCAL-00007" summary="master - sort arrays">
-      <option name="closed" value="true" />
-      <created>1718318303699</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1718318303699</updated>
-    </task>
-    <task id="LOCAL-00008" summary="master - sout result array">
-      <option name="closed" value="true" />
-      <created>1718318511288</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718318511288</updated>
-    </task>
-    <task id="LOCAL-00009" summary="master - Merge Sorted Array">
-      <option name="closed" value="true" />
-      <created>1718371172431</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1718371172431</updated>
-    </task>
-    <task id="LOCAL-00010" summary="master - Merge Sorted Array">
-      <option name="closed" value="true" />
-      <created>1718372280881</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1718372280881</updated>
-    </task>
-    <task id="LOCAL-00011" summary="master - rework usual array">
-      <option name="closed" value="true" />
-      <created>1718373357693</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718373357693</updated>
-    </task>
-    <task id="LOCAL-00012" summary="master - rework usual array#2">
-      <option name="closed" value="true" />
-      <created>1718373692026</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718373692026</updated>
-    </task>
-    <task id="LOCAL-00013" summary="master - rework usual array#3">
-      <option name="closed" value="true" />
-      <created>1718373852796</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1718373852796</updated>
-    </task>
-    <task id="LOCAL-00014" summary="master_27 - remove element, realization by Stream API and Java collectons">
-      <option name="closed" value="true" />
-      <created>1718384174389</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1718384174389</updated>
-    </task>
-    <task id="LOCAL-00015" summary="master_26 - remove Duplicates from Sorted Array">
-      <option name="closed" value="true" />
-      <created>1718627258035</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1718627258035</updated>
-    </task>
-    <task id="LOCAL-00016" summary="master_26 - remove Duplicates from Sorted Array#2">
-      <option name="closed" value="true" />
-      <created>1718627310048</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1718627310048</updated>
-    </task>
-    <task id="LOCAL-00017" summary="master_80 - relative sort array 2">
-      <option name="closed" value="true" />
-      <created>1718681395838</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1718681395838</updated>
-    </task>
-    <task id="LOCAL-00018" summary="master_80 - fixed the sorting">
-      <option name="closed" value="true" />
-      <created>1718684758239</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1718684758239</updated>
-    </task>
-    <task id="LOCAL-00019" summary="master_80 - fixed the sorting">
-      <option name="closed" value="true" />
-      <created>1718697936291</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1718697936291</updated>
-    </task>
-    <task id="LOCAL-00020" summary="master_80 - fixed the sorting final">
-      <option name="closed" value="true" />
-      <created>1718699288637</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1718699288637</updated>
-    </task>
-    <task id="LOCAL-00021" summary="master_80 - fixed the sorting final#2">
-      <option name="closed" value="true" />
-      <created>1718714424874</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1718714424874</updated>
-    </task>
-    <task id="LOCAL-00022" summary="multithreads">
-      <option name="closed" value="true" />
-      <created>1718940762655</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1718940762655</updated>
-    </task>
-    <task id="LOCAL-00023" summary="multithreads with join and synhronized">
-      <option name="closed" value="true" />
-      <created>1718966654835</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1718966654835</updated>
-    </task>
-    <task id="LOCAL-00024" summary="multithreads without join">
-      <option name="closed" value="true" />
-      <created>1718966715815</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1718966715815</updated>
-    </task>
-    <task id="LOCAL-00025" summary="multithreads">
-      <option name="closed" value="true" />
-      <created>1719053564640</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1719053564640</updated>
-    </task>
-    <task id="LOCAL-00026" summary="each thread modifies 33 elements">
-      <option name="closed" value="true" />
-      <created>1719057963426</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1719057963426</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add Stream and Threads taken out in class now">
-      <option name="closed" value="true" />
-      <created>1719065577567</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1719065577567</updated>
-    </task>
-    <task id="LOCAL-00028" summary="rework">
-      <option name="closed" value="true" />
-      <created>1719324837288</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1719324837288</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master - search unique value and sum it" />
-    <MESSAGE value="master - dev arraylist" />
-    <MESSAGE value="master - dev arraylist#2" />
-    <MESSAGE value="master - dev arraylist#3" />
-    <MESSAGE value="master - old wrong option code" />
-    <MESSAGE value="master - old code incorrect" />
-    <MESSAGE value="master - sort arrays" />
-    <MESSAGE value="master - sout result array" />
-    <MESSAGE value="master - Merge Sorted Array" />
-    <MESSAGE value="master - rework usual array" />
-    <MESSAGE value="master - rework usual array#2" />
-    <MESSAGE value="master - rework usual array#3" />
-    <MESSAGE value="master_27 - remove element, realization by Stream API and Java collectons" />
-    <MESSAGE value="master_26 - remove Duplicates from Sorted Array" />
-    <MESSAGE value="master_26 - remove Duplicates from Sorted Array#2" />
-    <MESSAGE value="master_80 - relative sort array 2" />
-    <MESSAGE value="master_80 - fixed the sorting" />
-    <MESSAGE value="master_80 - fixed the sorting final" />
-    <MESSAGE value="master_80 - fixed the sorting final#2" />
-    <MESSAGE value="multithreads with join and synhronized" />
-    <MESSAGE value="multithreads without join" />
-    <MESSAGE value="multithreads" />
-    <MESSAGE value="each thread modifies 33 elements" />
-    <MESSAGE value="add Stream and Threads taken out in class now" />
-    <MESSAGE value="rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/task27/Solution.java</url>
-          <line>9</line>
-          <properties class="task27.Solution">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/binarysearch704/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />

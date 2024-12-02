@@ -1,8 +1,5 @@
 package threads21062024;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Student {
     private int id;
 
