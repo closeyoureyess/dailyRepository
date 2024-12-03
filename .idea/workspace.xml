@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="contains duplicate 217">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singlenumber136/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singlenumber136/Solution.java" afterDir="false" />
+    <list default="true" id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="single number 136">
+      <change afterPath="$PROJECT_DIR$/src/main/java/missingnumber268/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/missingnumber268/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "closeyoureyess"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a4a39eb-26d2-401f-b823-e397dcd7d5b4" />
+        <option name="url" value="https://github.com/closeyoureyess/dailyRepository.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProjectColorInfo">{
@@ -29,13 +43,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.missingnumber268.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vadim/IdeaProjects/dailyProjectorigin/src/main/java/singlenumber136",
+    "last_opened_file_path": "C:/Users/vadim/IdeaProjects/dailyProjectorigin/src/main/java/missingnumber268",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -43,10 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vadim\IdeaProjects\dailyProjectorigin\src\main\java\missingnumber268" />
       <recent name="C:\Users\vadim\IdeaProjects\dailyProjectorigin\src\main\java\singlenumber136" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.missingnumber268.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singlenumber136.Main" />
       <module name="dailyProjectorigin" />
@@ -60,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="missingnumber268.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="missingnumber268.Main" />
+      <module name="dailyProjectorigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="missingnumber268.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.missingnumber268.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -91,13 +121,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733181047018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="single number 136">
+      <option name="closed" value="true" />
+      <created>1733189127246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733189127246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="contains duplicate 217" />
-    <option name="LAST_COMMIT_MESSAGE" value="contains duplicate 217" />
+    <MESSAGE value="single number 136" />
+    <option name="LAST_COMMIT_MESSAGE" value="single number 136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -106,6 +145,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/singlenumber136/Solution.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/missingnumber268/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
