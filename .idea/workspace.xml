@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="edd8deea-f4cb-4fe5-87f4-277b58a60796" name="Changes" comment="contains duplicate 217">
+      <change afterPath="$PROJECT_DIR$/src/main/java/singlenumber136/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singlenumber136/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/containsduplicate217/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/containsduplicate217/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/containsduplicate217/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/containsduplicate217/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task1122/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1122/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task27/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task27/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task80/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task80/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task88/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task88/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threads21062024/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads21062024/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threads21062024/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads21062024/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +18,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleModuleStateConfig" initialized="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pgH4IRKSU5tCL4dEpDaHuP0wfM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,16 +29,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vadim/IdeaProjects/dailyProjectorigin/src/main/java/singlenumber136",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vadim\IdeaProjects\dailyProjectorigin\src\main\java\singlenumber136" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singlenumber136.Main" />
+      <module name="dailyProjectorigin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singlenumber136.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,13 +75,40 @@
       <option name="presentableId" value="Default" />
       <updated>1733180614549</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1733181021162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733181021162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="contains duplicate 217">
+      <option name="closed" value="true" />
+      <created>1733181047018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733181047018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="contains duplicate 217" />
+    <option name="LAST_COMMIT_MESSAGE" value="contains duplicate 217" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/singlenumber136/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
